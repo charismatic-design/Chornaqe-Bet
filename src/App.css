@@ -1,0 +1,80 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app.dark {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.header {
+  background: #8B4513;
+  color: white;
+  padding: 20px;
+}
+
+.toggle {
+  margin: 15px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #FFD700;
+}
+
+.hero {
+  padding: 30px;
+}
+
+.hero-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.like-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #e74c3c;
+  color: white;
+  margin-top: 10px;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 120px;
+  background: #fff8dc;
+}
+
+.app.dark .card {
+  background: #333;
+  border-color: #555;
+}
+
+.footer {
+  background: #8B4513;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
